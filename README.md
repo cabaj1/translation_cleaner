@@ -26,4 +26,10 @@ Python / shell script to clean up json translation files. It searches the whole 
 5) Save the files
 6) Run ReplaceAll.py
 7) Manually double check to confirm that they can indeed be deleted
-8) Replace your translation file with output.json and rename output.json
+8a) Replace your translation file with output.json and rename output.json
+--------------
+8b) If they cannot be deleted, remove them from the list.
+9) Save the new list under 'notfoundfinal_lookedThrough.json'.
+10) Run 'ReplaceSelected.py'
+11) Replace your translation file with outputManuallyChecked.json
+
